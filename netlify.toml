@@ -1,10 +1,7 @@
 [build]
   publish = "."
-  functions = "." # This tells Netlify to look for functions in the root directory
+  functions = "."
   command = "npm install"
 
 [functions]
-  node_bundler = "esbuild" is at root
-
-[functions]
-  node_bundler = "esbuild"er Netlify Functions builds
+  node_bundler = "esbuild"
