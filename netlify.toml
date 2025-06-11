@@ -1,0 +1,7 @@
+[build]
+  publish = "public"
+  functions = "netlify/functions"
+  command = "npm install --prefix netlify/functions" # Install dependencies for Netlify Functions
+
+[functions]
+  node_bundler = "esbuild" # Recommended for faster Netlify Functions builds
